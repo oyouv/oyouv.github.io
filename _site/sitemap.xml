@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
+<!-- <url>
 <loc>/categories/</loc>
 <lastmod>2023-06-27T21:36:22+08:00</lastmod>
-</url>
-<url>
+</url> -->
+<!-- <url>
 <loc>/tags/</loc>
 <lastmod>2023-06-27T21:36:22+08:00</lastmod>
-</url>
+</url> -->
 <url>
 <loc>/archives/</loc>
 <lastmod>2023-06-27T21:36:22+08:00</lastmod>
