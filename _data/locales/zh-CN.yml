@@ -15,6 +15,10 @@ tabs:
   tags: 标签
   archives: 归档
   about: 关于
+  chatgpt: ChatGpt
+  recommend: 推荐
+  ai-content: AI-内容
+  ai-prompt: AI-Prompt
 
 # the text displayed in the search bar & search results
 search:
