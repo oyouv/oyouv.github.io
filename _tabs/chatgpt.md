@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+icon: /assets/img/favicons/favicon-16x16.png
 order: 1
 ---
 
