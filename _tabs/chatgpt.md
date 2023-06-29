@@ -3,10 +3,10 @@
 icon: fas fa-info-circle
 order: -1
 ---
-
-> Add Markdown syntax content to file `_tabs/chatgpt.md`{: .filepath } and it will show up on this page.
+>Add Markdown syntax content to file `_tabs/chatgpt.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
+>Hello ChatGpt this is A test!!!
 
-> Hello ChatGpt this is A test!!!
-
-<iframe width="640" height="360" src="http://www.baidu.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="chatgpt" >
+<iframe width=640 height=360  src=http://www.baidu.com/ frameborder=0></iframe>
+</div>
