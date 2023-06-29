@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<head>
+    <script> 
+    $(function(){
+      $("#divId").load("http://www.baidu.com"); 
+    });
+    </script> 
+</head>
+{% include lang.html %}
+{% include origin-type.html %}
+
+<div class="row{% unless has_tail %} mb-5{% endunless %}">
+  <!-- core -->
+  <div id="core-wrapper" class="col-12 col-lg-11 col-xl-9 pe-xl-4">
+
+    <p>this is a big test!</p>
+
+    <!-- <iframe   src="chatgpt-loader.html" 
+       allowTransparency="true" frameborder="0" allowfullscreen="true"  scrolling="no">
+    </iframe> -->
+    {% include chatgpt-loader.html lang=lang %}
+  </div>
+  <!-- #core-wrapper -->
+
+  <!-- panel -->
+  <div id="panel-wrapper" class="col-xl-3 ps-2 text-muted">
+    <div class="access">
+      {% include update-list.html lang=lang %}
+      {% include trending-tags.html lang=lang %}
+    </div>
+
+    {% for _include in layout.panel_includes %}
+      {% assign _include_path = _include | append: '.html' %}
+      {% include {{ _include_path }} lang=lang %}
+    {% endfor %}
+  </div>
+</div>

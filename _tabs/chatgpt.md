@@ -1,9 +1,9 @@
 ---
 # the default layout is 'page'
+layout: page
 icon: fas fa-info-circle
 order: -1
 ---
->Add Markdown syntax content to file `_tabs/chatgpt.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
 
->Hello ChatGpt this is A test!!!
+>免费体验ChatGpt，即将登陆，敬请期待～
+{: .prompt-tip}
