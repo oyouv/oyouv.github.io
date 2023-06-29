@@ -13,12 +13,12 @@ baseurl: ""
 lang: 'zh-CN'
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Asia/Shanghai
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Oyouv-AI # the main title
+title: Jaunce # the main title
 
 tagline: AI信息化探索与知识分享 # it will display as the sub-title
 
